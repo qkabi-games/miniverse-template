@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="__project__"
+run/main_scene="uid://dswxh23ai4ery"
+config/features=PackedStringArray("4.5", "Forward Plus")
+boot_splash/bg_color=Color(0.9019608, 0.90588236, 0.92941177, 1)
+
+[audio]
+
+buses/default_bus_layout="uid://cm52lkec0l2k6"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
+
+[gui]
+
+theme/custom="uid://nhhx8ewitr3n"
+theme/custom_font="uid://fvqy6p8pcyjr"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://bin/resources/translations/translations.ar.translation", "res://bin/resources/translations/translations.de.translation", "res://bin/resources/translations/translations.en.translation", "res://bin/resources/translations/translations.es.translation", "res://bin/resources/translations/translations.fr.translation", "res://bin/resources/translations/translations.hi.translation", "res://bin/resources/translations/translations.id.translation", "res://bin/resources/translations/translations.it.translation", "res://bin/resources/translations/translations.ja.translation", "res://bin/resources/translations/translations.ko.translation", "res://bin/resources/translations/translations.pt.translation", "res://bin/resources/translations/translations.ru.translation", "res://bin/resources/translations/translations.tr.translation", "res://bin/resources/translations/translations.zh_CN.translation", "res://bin/resources/translations/translations.zh_TW.translation", "res://__project__/resources/translations.ar.translation", "res://__project__/resources/translations.de.translation", "res://__project__/resources/translations.en.translation", "res://__project__/resources/translations.es.translation", "res://__project__/resources/translations.fr.translation", "res://__project__/resources/translations.hi.translation", "res://__project__/resources/translations.id.translation", "res://__project__/resources/translations.it.translation", "res://__project__/resources/translations.ja.translation", "res://__project__/resources/translations.ko.translation", "res://__project__/resources/translations.pt.translation", "res://__project__/resources/translations.ru.translation", "res://__project__/resources/translations.tr.translation", "res://__project__/resources/translations.zh_CN.translation", "res://__project__/resources/translations.zh_TW.translation")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.9019608, 0.90588236, 0.92941177, 1)

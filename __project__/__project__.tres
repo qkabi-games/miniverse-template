@@ -1,0 +1,7 @@
+[gd_resource type="GameInfo" load_steps=2 format=3 uid="uid://dllqhgw6lep4r"]
+
+[sub_resource type="I18N" id="I18N_03vde"]
+
+[resource]
+id = "__Project__"
+name = SubResource("I18N_03vde")

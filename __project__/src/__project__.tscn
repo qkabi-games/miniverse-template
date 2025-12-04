@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://6bffhxo5v77m"]
+
+[ext_resource type="GameInfo" uid="uid://dllqhgw6lep4r" path="res://__project__/__project__.tres" id="1_5r758"]
+[ext_resource type="Script" uid="uid://cy2dlx2j773vg" path="res://__project__/src/__project__.gd" id="1_6dr36"]
+
+[node name="ColorSwitch" type="Game"]
+info = ExtResource("1_5r758")
+process_mode = 1
+script = ExtResource("1_6dr36")

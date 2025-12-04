@@ -1,0 +1,6 @@
+# Miniverse
+/bin/
+
+# Godot
+.godot/
+/android/
