@@ -3,11 +3,10 @@ extends Game
 
 #region Overrides
 func _ready() -> void:
-    # Todo: Implement
-    starting.connect(_on_starting)
-    stopping.connect(_on_stopping)
-    reviving.connect(_on_reviving)
-    restarting.connect(_on_restarting)
+    starting.connect(_on_restarting)
+    stopping.connect(_on_reviving)
+    reviving.connect(_on_stopping)
+    restarting.connect(_on_starting)
 
 
 func _create_pre_game_overlay() -> PreGameOverlay:

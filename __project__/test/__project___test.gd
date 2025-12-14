@@ -1,0 +1,2 @@
+class_name __Project__Test
+extends GameTest

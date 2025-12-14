@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dswxh23ai4ery"]
+
+[ext_resource type="PackedScene" uid="uid://6bffhxo5v77m" path="res://__project__/src/__project__.tscn" id="1_aha56"]
+[ext_resource type="Script" uid="uid://b3dahmk6x8lsn" path="res://__project__/test/__project___test.gd" id="1_xs7n7"]
+
+[node name="__Project__Test" type="GameTest" node_paths=PackedStringArray("game")]
+game = NodePath("__Project__")
+script = ExtResource("1_xs7n7")
+
+[node name="__Project__" parent="." instance=ExtResource("1_aha56")]

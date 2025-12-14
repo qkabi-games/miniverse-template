@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="__project__"
+config/name="__Project__"
 run/main_scene="uid://dswxh23ai4ery"
 config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/bg_color=Color(0.9019608, 0.90588236, 0.92941177, 1)
