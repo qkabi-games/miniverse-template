@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cdtnf4ogevljt"
+
+[deps]
+
+files=["res://project/resources/translations.en.translation", "res://project/resources/translations.zh_CN.translation", "res://project/resources/translations.zh_TW.translation", "res://project/resources/translations.ar.translation", "res://project/resources/translations.de.translation", "res://project/resources/translations.es.translation", "res://project/resources/translations.fr.translation", "res://project/resources/translations.id.translation", "res://project/resources/translations.hi.translation", "res://project/resources/translations.it.translation", "res://project/resources/translations.ja.translation", "res://project/resources/translations.ko.translation", "res://project/resources/translations.pt.translation", "res://project/resources/translations.ru.translation", "res://project/resources/translations.tr.translation"]
+
+source_file="res://project/resources/translations.csv"
+dest_files=["res://project/resources/translations.en.translation", "res://project/resources/translations.zh_CN.translation", "res://project/resources/translations.zh_TW.translation", "res://project/resources/translations.ar.translation", "res://project/resources/translations.de.translation", "res://project/resources/translations.es.translation", "res://project/resources/translations.fr.translation", "res://project/resources/translations.id.translation", "res://project/resources/translations.hi.translation", "res://project/resources/translations.it.translation", "res://project/resources/translations.ja.translation", "res://project/resources/translations.ko.translation", "res://project/resources/translations.pt.translation", "res://project/resources/translations.ru.translation", "res://project/resources/translations.tr.translation"]
+
+[params]
+
+compress=true
+delimiter=0

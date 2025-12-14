@@ -1,4 +1,4 @@
-class_name __Project__
+class_name Project
 extends Game
 
 #region Overrides
